@@ -1,0 +1,36 @@
+<document>
+  <game>
+    <auction>
+      <bids> 1N PP 2H PP 2S PP 4C PP 4D PP 4H PP 4S PP 4N PP 5C PP 5H PP 6C PP 7S PP 
+PP PP </bids>
+    </auction>
+    <boardnr> 16 </boardnr>
+    <ccew> -35 </ccew>
+    <ccns> FAB - B5C - F&amp;H v2-3 (BIC 48832) </ccns>
+    <competition-id> 34884 </competition-id>
+    <deal> W:KT.A754.K542.AK5 84.98.Q93.QJ8764 AQ9653.KJ2.AT8.3 J72.QT63.J76.T92 </deal>
+    <deal-id> 568873 </deal-id>
+    <dealer> W </dealer>
+    <dealnum> 026243322161990410849610950275 </dealnum>
+    <dealresult-id> 860456033 </dealresult-id>
+    <play>
+      <trick> N:D3 DT DJ DK </trick>
+      <trick> N:H8 HK H3 H4 </trick>
+      <trick> N:S4 S3 S2 SK </trick>
+      <trick> N:S8 SQ S7 ST </trick>
+      <trick> N:C7 SA SJ H5 </trick>
+      <trick> N:C4 S9 D6 D4 </trick>
+      <trick> N:H9 S6 D7 D2 </trick>
+      <trick> N:C6 S5 C2 H7 </trick>
+      <trick> N:D9 H2 HT HA </trick>
+      <trick> N:C8 C3 C9 CK </trick>
+      <trick> N:CJ HJ CT CA </trick>
+      <trick> N:DQ DA H6 D5 </trick>
+      <trick> N:CQ D8 HQ C5 </trick>
+    </play>
+    <player-id> 3460 </player-id>
+    <south> FBuijsen </south>
+    <vul> EW </vul>
+  </game>
+  <checksum-doc> -411176328 </checksum-doc>
+</document>
