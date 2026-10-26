@@ -1,0 +1,71 @@
+Schema's voor individuele wedstrijden
+
+Overzicht
+
+Met behulp van dit programma, door snuffelen in de literatuur en het www, en door noeste puzzelarbeid hebben Joop van Wijk en ik een collectie individuele schema's samengesteld en geoptimaliseerd voor 5 tot 32 deelnemers. Een overzicht volgt hieronder
+         05i05rInd++.txt  s.d.:0.000  Qc: 0.00  So:  0.0 Sp:  0.0 Se:  0.0
+         08i07rBar++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+          09i09rSH++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+         10i10rSHopt.txt  s.d.:1.286  Qc:81.13  So: 56.8 Sp:134.3 Se: 32.1
+            11i11rSH.txt  s.d.:1.327  Qc:76.60  So: 88.4 Sp:253.4 Se: 38.3
+         12i05rTopt3.txt  s.d.:1.781  Qc:70.09  So: 85.0 Sp:238.0 Se: 80.4
+         12i06rTopt3.txt  s.d.:2.094  Qc:70.95  So:152.5 Sp:303.5 Se:109.7
+          12i09rJvW5.txt  s.d.:2.072  Qc:84.88  So:397.3 Sp:321.3 Se:259.1
+     12i11rBarometer.txt  s.d.:2.309  Qc:87.10  So:  0.0 Sp:  0.0 Se:  0.0
+           12i11rhhj.txt  s.d.:2.045  Qc:89.59  So:1199.0 Sp:  0.0 Se:486.7
+         13i06rTopt3.txt  s.d.:2.135  Qc:62.72  So:197.6 Sp:317.1 Se:144.0
+         13i13rhhj++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+         14i06rTopt3.txt  s.d.:2.105  Qc:55.99  So:146.5 Sp:314.0 Se:108.4
+           14i14rInd.txt  s.d.:1.747  Qc:90.95  So:469.7 Sp:298.2 Se:224.2
+           16i05rGSB.txt  s.d.:3.578  Qc:41.28  So: 55.6 Sp:355.6 Se:  0.0
+          16i06rJvW7.txt  s.d.:1.904  Qc:78.14  So: 51.8 Sp:483.8 Se: 62.7
+           16i07r2x8.txt  s.d.:2.444  Qc:74.70  So:613.3 Sp:613.3 Se: 71.2
+       16i07r8tegen8.txt  s.d.:6.661  Qc:28.45  So:613.3 Sp:613.3 Se: 71.2
+   16i07rmixeddouble.txt  s.d.:2.444  Qc:74.70  So: 25.3 Sp:613.3 Se: 71.2
+           16i08rJvW.txt  s.d.:2.274  Qc:81.66  So: 32.7 Sp:732.7 Se: 91.1
+         16i15rBar++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+  16i15rPavlicek.opt.txt  s.d.:1.592  Qc:96.97  So:  0.0 Sp:  0.0 Se:  0.0         
+          16i15rSH++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+       17i06rzwerver.txt  s.d.:2.219  Qc:67.21  So: 69.0 Sp:478.5 Se: 70.0
+       17i07rzwerver.txt  s.d.:2.380  Qc:70.80  So: 88.4 Sp:616.9 Se: 92.1
+         17i17rBar++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+          20i05rTopt.txt  s.d.:1.910  Qc:73.21  So: 90.4 Sp:465.4 Se: 20.9
+           20i06rJvW.txt  s.d.:2.737  Qc:65.73  So:108.2 Sp:648.2 Se:104.0
+         20i19rBar++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+           21i21rBar.txt  s.d.:1.265  Qc:98.90  So:  0.0 Sp:  0.0 Se:  0.0
+          24i05rTopt.txt  s.d.:2.775  Qc:57.99  So:295.6 Sp:571.6 Se:256.4
+        24i06rGSBopt.txt  s.d.:3.209  Qc:59.79  So:157.2 Sp:805.2 Se: 94.1
+         24i23rBar++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+          28i06rJvW2.txt  s.d.:3.567  Qc:55.70  So:202.2 Sp:958.2 Se:158.9
+        28i07rNBBopt.txt  s.d.:2.635  Qc:75.82  So:250.8 Sp:1279.8 Se: 60.2
+          32i06rJvW2.txt  s.d.:3.307  Qc:60.16  So:244.8 Sp:1108.8 Se:266.6
+        32i07rNBBopt.txt  s.d.:3.692  Qc:62.26  So:363.0 Sp:1488.0 Se:120.0
+
+De naam van ieder schema begint met het aantal spelers en het aantal ronden. De rest van de naam 
+vertelt iets over de aard van het schema (bijvoorbeeld Bar = barometer), de kwaliteit (++ = perfect), en/of de herkomst. Bijvoorbeeld 24i06rGSBopt.txt is een geoptimaliseerde versie van een schema voor 24 paren en 6 ronden, afkomstig uit het Groot Schemaboek. De schema's met JvW in de naam zijn afkomstig van Joop van Wijk. Een aantal schema's zijn afkomstig uit "Movements a fair approach" door Hallen, Hanner en Jannersten, een paar van de website van de NBB, en van de website van Richard Pavlicek.
+
+Notatie
+De notatie van de schema's wordt geilllustreerd door het volgende voorbeeld:
+16 4 7 7 1 ; Mixed double: Ieder paar is oneven + even nummer
+ 1 10 13 16 A  7  4 11  6 A 15 14  9  2 B  3  8  5 12 B 
+ 1 12 15  4 C  9  6 13  8 C 11  2  3 16 D  5 10  7 14 D 
+ 1 14  3  6 E 11  8 15 10 E  5  4 13  2 F  9 16  7 12 F 
+ 1  4  7 10 B 13  6 11 16 B  3  2  9  8 A 15 12  5 14 A 
+ 1  6  9 12 D 13  4 15  8 D  5  2 11 10 C  3 14  7 16 C 
+ 1  8 11 14 F  3 10 15  6 F  7  2 13 12 E  9  4  5 16 E 
+ 1 16  5  8 G  9 14 11  4 G 15  2  7  6 G 13 10  3 12 G 
+
+s.d.:2.444  Qc:74.70  So: 25.3 Sp:613.3 Se: 71.2
+De eerste regel (de header) bevat het aantal spelers, het aantal tafels, het aantal ronden, het aantal spelgroepen, het cijfer 1, en eventueel de letter g.
+De volgende regels bevatten sets van { paarnummers van N, Z, O en W en de spelgroep }, een regel per ronde. Als achteraan de header een 'g' stond zijn de spelgroepen opgegeven als getallen.
+Commentaar kan zijn toegevoegd op de header regel, in de vorm van ';' gevolgd door tekst.
+De gebruikte notatie komt overeen met wat het NBB-Rekenprogramma verwacht.
+
+
+Maak de loopbridjes aan in CSV formaat waar voor iedere speler zijn loppschema staat:
+1. De bovenste regel is "Speler N (X spelers)", waar N het nummer van de speler is en X het aantal spelers.
+2. Regel 2 is leeg
+3. Alle volgende regels bevatten:
+ronde-nummer Tafelnummer Spelgroep  Windrichting Partner-nummer Nummers-Tegenstanders
+
+
