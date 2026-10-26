@@ -1,0 +1,199 @@
+Schema's voor individuele wedstrijden
+Individuele wedstrijden hebben doorgaans het karakter van een sociale gebeurtenis. We willen graag dat iedere deelnemer zoveel mogelijk verschillende spelers tegenkomt, ofwel als partner, ofwel als tegenstander. Het is natuurlijk ook wenselijk dat iedere deelnemer gelijke kansen krijgt, maar dit is in dit geval van ondergeschikt belang.
+
+Bij een ideaal individueel schema ontmoet iedere speler iedere andere speler één keer als partner, en twee keer als tegenstander. Als daarnaast ook nog de balans in orde is, zodat iedere twee spelers even veel spellen in gelijke windrichtingen spelen dan is het schema perfect. Maar in veel gevallen is deze perfectie niet practisch haalbaar, vanwege beschikbare tijd, aantal deelnemers en andere overwegingen. We moeten dan proberen er het beste van te maken.
+
+We hanteren de volgende lijst van prioriteiten:
+
+zo veel mogelijk verschillende partners, i.e. niet twee keer dezelfde partner
+zo veel mogelijk verschillende tegenstanders
+zo veel mogelijk verschillende ontmoetingen.
+zo goed mogelijke balans, i.e. eerlijke vergelijking met andere spelers.
+Voor ieder van boven genoemde punten 1,2, en 3 kan een kwaliteitscriterium geformuleerd worden dat samenhangt met de gelijkmatige verdeling van respectievelijk partners, tegenstanders en ontmoetingen. We noemen deze Sp, So en Se (partners, opponents, encounters). Deze worden zo gekozen dat ze 0 worden voor een ideaal schema, en voldoen aan hoe kleiner hoe beter.
+
+De bepaling van de balans, punt 4, lijkt veel op die bij parenschema's. Per spel wordt immers de score uitgerekend zoals bij parenbridge. De score wordt nu echter niet per paar bijgehouden, maar per speler. De score-matrix heeft nu evenveel rijen en kolommen als er spelers zijn, maar wordt verder net zo berekend als in het geval van vaste paren. Er zijn wat aanpassingen nodig, waarvan de belangrijkste is dat ook aan de ontmoeting van twee spelers als partners een gewicht gehecht moet worden. Hiervoor is de volgende keus gemaakt: We kennen aan het samen spelen met een partner een gelijk maar tegengesteld gewicht toe als aan het spelen tegen een tegenstander. In de scorematrix betekent dit dus een bijdrage -h. Zie verder de Theorie paragraaf op de balans pagina. We kunnen weer de kwaliteit van een schema uitdrukken als de standaard deviatie van de scorematrix (=0 voor een ideaal schema), of in een kwaliteitsfactor Qc (=100 voor een perfect schema).
+
+Voor het optimaliseren van de schema's is een programma ontwikkeld, gebaseerd op het programma balans. Het programma verandert niets aan de ontmoetingen, maar wel aan de plaatsen van de 4 spelers aan een tafel in een bepaalde ronde. Hierdoor kan dus Se niet gewijzigd worden, maar het programma streeft wel naar een verbetering van Sp, So, en Qc, met die volgorde van prioriteit.
+
+Overzicht
+Met behulp van dit programma, door snuffelen in de literatuur en het www, en door noeste puzzelarbeid hebben Joop van Wijk en ik een collectie individuele schema's samengesteld en geoptimaliseerd voor 5 tot 32 deelnemers. Een overzicht volgt hieronder
+         05i05rInd++.txt  s.d.:0.000  Qc: 0.00  So:  0.0 Sp:  0.0 Se:  0.0
+         08i07rBar++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+          09i09rSH++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+         10i10rSHopt.txt  s.d.:1.286  Qc:81.13  So: 56.8 Sp:134.3 Se: 32.1
+            11i11rSH.txt  s.d.:1.327  Qc:76.60  So: 88.4 Sp:253.4 Se: 38.3
+         12i05rTopt3.txt  s.d.:1.781  Qc:70.09  So: 85.0 Sp:238.0 Se: 80.4
+         12i06rTopt3.txt  s.d.:2.094  Qc:70.95  So:152.5 Sp:303.5 Se:109.7
+          12i09rJvW5.txt  s.d.:2.072  Qc:84.88  So:397.3 Sp:321.3 Se:259.1
+     12i11rBarometer.txt  s.d.:2.309  Qc:87.10  So:  0.0 Sp:  0.0 Se:  0.0
+           12i11rhhj.txt  s.d.:2.045  Qc:89.59  So:1199.0 Sp:  0.0 Se:486.7
+         13i06rTopt3.txt  s.d.:2.135  Qc:62.72  So:197.6 Sp:317.1 Se:144.0
+         13i13rhhj++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+         14i06rTopt3.txt  s.d.:2.105  Qc:55.99  So:146.5 Sp:314.0 Se:108.4
+           14i14rInd.txt  s.d.:1.747  Qc:90.95  So:469.7 Sp:298.2 Se:224.2
+           16i05rGSB.txt  s.d.:3.578  Qc:41.28  So: 55.6 Sp:355.6 Se:  0.0
+          16i06rJvW7.txt  s.d.:1.904  Qc:78.14  So: 51.8 Sp:483.8 Se: 62.7
+           16i07r2x8.txt  s.d.:2.444  Qc:74.70  So:613.3 Sp:613.3 Se: 71.2
+       16i07r8tegen8.txt  s.d.:6.661  Qc:28.45  So:613.3 Sp:613.3 Se: 71.2
+   16i07rmixeddouble.txt  s.d.:2.444  Qc:74.70  So: 25.3 Sp:613.3 Se: 71.2
+           16i08rJvW.txt  s.d.:2.274  Qc:81.66  So: 32.7 Sp:732.7 Se: 91.1
+         16i15rBar++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+  16i15rPavlicek.opt.txt  s.d.:1.592  Qc:96.97  So:  0.0 Sp:  0.0 Se:  0.0         
+          16i15rSH++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+       17i06rzwerver.txt  s.d.:2.219  Qc:67.21  So: 69.0 Sp:478.5 Se: 70.0
+       17i07rzwerver.txt  s.d.:2.380  Qc:70.80  So: 88.4 Sp:616.9 Se: 92.1
+         17i17rBar++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+          20i05rTopt.txt  s.d.:1.910  Qc:73.21  So: 90.4 Sp:465.4 Se: 20.9
+           20i06rJvW.txt  s.d.:2.737  Qc:65.73  So:108.2 Sp:648.2 Se:104.0
+         20i19rBar++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+           21i21rBar.txt  s.d.:1.265  Qc:98.90  So:  0.0 Sp:  0.0 Se:  0.0
+          24i05rTopt.txt  s.d.:2.775  Qc:57.99  So:295.6 Sp:571.6 Se:256.4
+        24i06rGSBopt.txt  s.d.:3.209  Qc:59.79  So:157.2 Sp:805.2 Se: 94.1
+         24i23rBar++.txt  s.d.:0.000  Qc:100.00 So:  0.0 Sp:  0.0 Se:  0.0
+          28i06rJvW2.txt  s.d.:3.567  Qc:55.70  So:202.2 Sp:958.2 Se:158.9
+        28i07rNBBopt.txt  s.d.:2.635  Qc:75.82  So:250.8 Sp:1279.8 Se: 60.2
+          32i06rJvW2.txt  s.d.:3.307  Qc:60.16  So:244.8 Sp:1108.8 Se:266.6
+        32i07rNBBopt.txt  s.d.:3.692  Qc:62.26  So:363.0 Sp:1488.0 Se:120.0
+De naam van ieder schema begint met het aantal spelers en het aantal ronden. De rest van de naam vertelt iets over de aard van het schema (bijvoorbeeld Bar = barometer), de kwaliteit (++ = perfect), en/of de herkomst. Bijvoorbeeld 24i06rGSBopt.txt is een geoptimaliseerde versie van een schema voor 24 paren en 6 ronden, afkomstig uit het Groot Schemaboek. De schema's met JvW in de naam zijn afkomstig van Joop van Wijk. Een aantal schema's zijn afkomstig uit "Movements a fair approach" door Hallen, Hanner en Jannersten, een paar van de website van de NBB, en van de website van Richard Pavlicek.
+Notatie
+De notatie van de schema's wordt geilllustreerd door het volgende voorbeeld:
+16 4 7 7 1 ; Mixed double: Ieder paar is oneven + even nummer
+ 1 10 13 16 A  7  4 11  6 A 15 14  9  2 B  3  8  5 12 B 
+ 1 12 15  4 C  9  6 13  8 C 11  2  3 16 D  5 10  7 14 D 
+ 1 14  3  6 E 11  8 15 10 E  5  4 13  2 F  9 16  7 12 F 
+ 1  4  7 10 B 13  6 11 16 B  3  2  9  8 A 15 12  5 14 A 
+ 1  6  9 12 D 13  4 15  8 D  5  2 11 10 C  3 14  7 16 C 
+ 1  8 11 14 F  3 10 15  6 F  7  2 13 12 E  9  4  5 16 E 
+ 1 16  5  8 G  9 14 11  4 G 15  2  7  6 G 13 10  3 12 G 
+
+s.d.:2.444  Qc:74.70  So: 25.3 Sp:613.3 Se: 71.2
+De eerste regel (de header) bevat het aantal spelers, het aantal tafels, het aantal ronden, het aantal spelgroepen, het cijfer 1, en eventueel de letter g.
+De volgende regels bevatten sets van { paarnummers van N, Z, O en W en de spelgroep }, een regel per ronde. Als achteraan de header een 'g' stond zijn de spelgroepen opgegeven als getallen.
+Commentaar kan zijn toegevoegd op de header regel, in de vorm van ';' gevolgd door tekst.
+De gebruikte notatie komt overeen met wat het NBB-Rekenprogramma verwacht.
+Drie variaties op een schema.
+Zoals u ziet zijn er voor 16 spelers en 7 ronden maar liefst 3 schema's opgenomen, afkomstig van Joop van Wijk. Dit zijn drie variaties op hetzelfde thema, ieder met hun eigen karakteristieke eigenschappen.
+16i07rmixeddouble.txt is een normaal, geoptimaliseerd, schema, maar het heeft daarnaast de eigenschap dat alle paren bestaan uit een even en een oneven nummer. Het is te gebruiken als een gemengd dubbel schema waar ieder paar bestaat uit een dame en een heer. Iedereen ontmoet één van de andere spelers helemaal niet (bijvoorbeeld je vaste partner), en alle andere spelers één keer als tegenstander, en de helft ook nog één keer als partner.
+16i07r2x8.txt. Bij dit schema hebben de NZ spelers oneven nummers en de OW spelers even. Bij dit schema zijn er dus 2 winnaars, een in NZ en een in OW. Men speelt precies een keer met alle spelers van gelijke "pariteit" en komt de anderen precies twee keer tegen als tegenstanders.
+16i07r8tegen8.txt. Dit schema veronderstelt dat je viertallen-scoring gebruikt. De viertallen die tegen elkaar spelen wisselen van samenstelling maar bestaan steeds of uit 4 even nummers of uit 4 oneven nummers. Het schema komt het best tot zijn recht als je er een wedstrijd tussen 2 ploegen (8 dames en 8 heren) van maakt.
+De encountermatrix, de tegenstandermatrix en de partnermatrix.
+Deze matrices hebben als indices van rijen en kolommen de spelernummers. Ieder element geeft aan hoe vaak de twee betreffende spelers elkaar tegenkomen, ofwel in totaal (encountermatrix), ofwel als tegenstanders (de tegenstandermatrix), ofwel als partners. Het is duidelijk dat de encountermatrix de som is van de tegenstandermatrix en de partnermatrix. Als voorbeeld deze matrices voor twee van de hierboven besproken schema's.
+16i07r2x8.txt: 2 winnaars
+    Encounters
+    1 2 3 4 5 6 7 8 910111213141516
+ 1: \ . 1 2 1 2 1 2 1 2 1 2 1 2 1 2
+ 2: . \ 2 1 2 1 2 1 2 1 2 1 2 1 2 1
+ 3: 1 2 \ . 1 2 1 2 1 2 1 2 1 2 1 2
+ 4: 2 1 . \ 2 1 2 1 2 1 2 1 2 1 2 1
+ 5: 1 2 1 2 \ . 1 2 1 2 1 2 1 2 1 2
+ 6: 2 1 2 1 . \ 2 1 2 1 2 1 2 1 2 1
+ 7: 1 2 1 2 1 2 \ . 1 2 1 2 1 2 1 2
+ 8: 2 1 2 1 2 1 . \ 2 1 2 1 2 1 2 1
+ 9: 1 2 1 2 1 2 1 2 \ . 1 2 1 2 1 2
+10: 2 1 2 1 2 1 2 1 . \ 2 1 2 1 2 1
+11: 1 2 1 2 1 2 1 2 1 2 \ . 1 2 1 2
+12: 2 1 2 1 2 1 2 1 2 1 . \ 2 1 2 1
+13: 1 2 1 2 1 2 1 2 1 2 1 2 \ . 1 2
+14: 2 1 2 1 2 1 2 1 2 1 2 1 . \ 2 1
+15: 1 2 1 2 1 2 1 2 1 2 1 2 1 2 \ .
+16: 2 1 2 1 2 1 2 1 2 1 2 1 2 1 . \
+
+    Opponents
+    1 2 3 4 5 6 7 8 910111213141516
+ 1: \ . . 2 . 2 . 2 . 2 . 2 . 2 . 2
+ 2: . \ 2 . 2 . 2 . 2 . 2 . 2 . 2 .
+ 3: . 2 \ . . 2 . 2 . 2 . 2 . 2 . 2
+ 4: 2 . . \ 2 . 2 . 2 . 2 . 2 . 2 .
+ 5: . 2 . 2 \ . . 2 . 2 . 2 . 2 . 2
+ 6: 2 . 2 . . \ 2 . 2 . 2 . 2 . 2 .
+ 7: . 2 . 2 . 2 \ . . 2 . 2 . 2 . 2
+ 8: 2 . 2 . 2 . . \ 2 . 2 . 2 . 2 .
+ 9: . 2 . 2 . 2 . 2 \ . . 2 . 2 . 2
+10: 2 . 2 . 2 . 2 . . \ 2 . 2 . 2 .
+11: . 2 . 2 . 2 . 2 . 2 \ . . 2 . 2
+12: 2 . 2 . 2 . 2 . 2 . . \ 2 . 2 .
+13: . 2 . 2 . 2 . 2 . 2 . 2 \ . . 2
+14: 2 . 2 . 2 . 2 . 2 . 2 . . \ 2 .
+15: . 2 . 2 . 2 . 2 . 2 . 2 . 2 \ .
+16: 2 . 2 . 2 . 2 . 2 . 2 . 2 . . \
+
+    Partners
+    1 2 3 4 5 6 7 8 910111213141516
+ 1: \ . 1 . 1 . 1 . 1 . 1 . 1 . 1 .
+ 2: . \ . 1 . 1 . 1 . 1 . 1 . 1 . 1
+ 3: 1 . \ . 1 . 1 . 1 . 1 . 1 . 1 .
+ 4: . 1 . \ . 1 . 1 . 1 . 1 . 1 . 1
+ 5: 1 . 1 . \ . 1 . 1 . 1 . 1 . 1 .
+ 6: . 1 . 1 . \ . 1 . 1 . 1 . 1 . 1
+ 7: 1 . 1 . 1 . \ . 1 . 1 . 1 . 1 .
+ 8: . 1 . 1 . 1 . \ . 1 . 1 . 1 . 1
+ 9: 1 . 1 . 1 . 1 . \ . 1 . 1 . 1 .
+10: . 1 . 1 . 1 . 1 . \ . 1 . 1 . 1
+11: 1 . 1 . 1 . 1 . 1 . \ . 1 . 1 .
+12: . 1 . 1 . 1 . 1 . 1 . \ . 1 . 1
+13: 1 . 1 . 1 . 1 . 1 . 1 . \ . 1 .
+14: . 1 . 1 . 1 . 1 . 1 . 1 . \ . 1
+15: 1 . 1 . 1 . 1 . 1 . 1 . 1 . \ .
+16: . 1 . 1 . 1 . 1 . 1 . 1 . 1 . \
+16i07rmixeddouble.txt
+   Encounters
+    1 2 3 4 5 6 7 8 910111213141516
+ 1: \ . 1 2 1 2 1 2 1 2 1 2 1 2 1 2
+ 2: . \ 2 1 2 1 2 1 2 1 2 1 2 1 2 1
+ 3: 1 2 \ . 1 2 1 2 1 2 1 2 1 2 1 2
+ 4: 2 1 . \ 2 1 2 1 2 1 2 1 2 1 2 1
+ 5: 1 2 1 2 \ . 1 2 1 2 1 2 1 2 1 2
+ 6: 2 1 2 1 . \ 2 1 2 1 2 1 2 1 2 1
+ 7: 1 2 1 2 1 2 \ . 1 2 1 2 1 2 1 2
+ 8: 2 1 2 1 2 1 . \ 2 1 2 1 2 1 2 1
+ 9: 1 2 1 2 1 2 1 2 \ . 1 2 1 2 1 2
+10: 2 1 2 1 2 1 2 1 . \ 2 1 2 1 2 1
+11: 1 2 1 2 1 2 1 2 1 2 \ . 1 2 1 2
+12: 2 1 2 1 2 1 2 1 2 1 . \ 2 1 2 1
+13: 1 2 1 2 1 2 1 2 1 2 1 2 \ . 1 2
+14: 2 1 2 1 2 1 2 1 2 1 2 1 . \ 2 1
+15: 1 2 1 2 1 2 1 2 1 2 1 2 1 2 \ .
+16: 2 1 2 1 2 1 2 1 2 1 2 1 2 1 . \
+
+    Opponents
+    1 2 3 4 5 6 7 8 910111213141516
+ 1: \ . 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 2: . \ 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 3: 1 1 \ . 1 1 1 1 1 1 1 1 1 1 1 1
+ 4: 1 1 . \ 1 1 1 1 1 1 1 1 1 1 1 1
+ 5: 1 1 1 1 \ . 1 1 1 1 1 1 1 1 1 1
+ 6: 1 1 1 1 . \ 1 1 1 1 1 1 1 1 1 1
+ 7: 1 1 1 1 1 1 \ . 1 1 1 1 1 1 1 1
+ 8: 1 1 1 1 1 1 . \ 1 1 1 1 1 1 1 1
+ 9: 1 1 1 1 1 1 1 1 \ . 1 1 1 1 1 1
+10: 1 1 1 1 1 1 1 1 . \ 1 1 1 1 1 1
+11: 1 1 1 1 1 1 1 1 1 1 \ . 1 1 1 1
+12: 1 1 1 1 1 1 1 1 1 1 . \ 1 1 1 1
+13: 1 1 1 1 1 1 1 1 1 1 1 1 \ . 1 1
+14: 1 1 1 1 1 1 1 1 1 1 1 1 . \ 1 1
+15: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 \ .
+16: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 . \
+
+    Partners
+    1 2 3 4 5 6 7 8 910111213141516
+ 1: \ . . 1 . 1 . 1 . 1 . 1 . 1 . 1
+ 2: . \ 1 . 1 . 1 . 1 . 1 . 1 . 1 .
+ 3: . 1 \ . . 1 . 1 . 1 . 1 . 1 . 1
+ 4: 1 . . \ 1 . 1 . 1 . 1 . 1 . 1 .
+ 5: . 1 . 1 \ . . 1 . 1 . 1 . 1 . 1
+ 6: 1 . 1 . . \ 1 . 1 . 1 . 1 . 1 .
+ 7: . 1 . 1 . 1 \ . . 1 . 1 . 1 . 1
+ 8: 1 . 1 . 1 . . \ 1 . 1 . 1 . 1 .
+ 9: . 1 . 1 . 1 . 1 \ . . 1 . 1 . 1
+10: 1 . 1 . 1 . 1 . . \ 1 . 1 . 1 .
+11: . 1 . 1 . 1 . 1 . 1 \ . . 1 . 1
+12: 1 . 1 . 1 . 1 . 1 . . \ 1 . 1 .
+13: . 1 . 1 . 1 . 1 . 1 . 1 \ . . 1
+14: 1 . 1 . 1 . 1 . 1 . 1 . . \ 1 .
+15: . 1 . 1 . 1 . 1 . 1 . 1 . 1 \ .
+16: 1 . 1 . 1 . 1 . 1 . 1 . 1 . . \
+De encountermatrices zijn identiek. U ziet hieruit meteen welke spelers elkaar nooit tegenkomen. De partnermatrix en vooral de tegenstandermatrix zien er heel verschillend uit.
+In de distributie is een file bijgevoegd waarin voor alle schema's deze matrices staan plus nog wat verdere gegevens.
+
+Download
+Klik hier voor een zipfile met de genoemde schema's
